@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-container {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0); /* Brighter gradient background */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .home-container p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin-top: 0;
+    color: #ffe4b5;
+  }
+  
