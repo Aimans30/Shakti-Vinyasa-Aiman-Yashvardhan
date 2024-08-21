@@ -1,0 +1,27 @@
+.page-container {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0); /* Brighter gradient background */
+  color: white;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ensure full width */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+.about-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about-container p {
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin-top: 0;
+  color: #ffe4b5;
+}
